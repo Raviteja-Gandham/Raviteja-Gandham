@@ -3,7 +3,7 @@ class Fibonacci
 {
 	public static void main(String ar[])
 	{
-		int i=0,a=1,b=1,c=1,n;//n=7;
+		int i=0,a=1,b=1,c=1,n;
 		Scanner sr=new Scanner(System.in);
 		n=sr.nextInt();
 		 System.out.print(i+" "+a+" "+b+" ");
