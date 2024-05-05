@@ -11,7 +11,6 @@ class Factorial
 			fact*=n;
 			n--;
 		}
-		System.out.println(fact);	// or
-	    //System.out.println("Factorial of is "+fact);
+		System.out.println("Factorial of is "+fact);
 	}
 }
