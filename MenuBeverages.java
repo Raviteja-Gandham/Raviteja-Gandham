@@ -4,7 +4,6 @@ class MenuBeverages
 	public static void main(String ar[])
 	{
 		int choice;
-		//double N_Coffees;
 		int coffee=15,Tea=12,Buscuit=5,Samosa=15;
 		System.out.println(".........Welcome to Star Cafe.......");
 		System.out.println("Menu Driven :\n 1.Coffee\n 2.Tea \n 3.Buscuit \n 4.Samosa");
