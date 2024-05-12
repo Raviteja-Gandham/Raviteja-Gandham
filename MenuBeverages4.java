@@ -14,7 +14,7 @@ class MenuBeverages4
 		choice=sr.nextInt();
 		while(choice!=0)
 		{
-			//System.out.println("Menu Driven :\n 0.Exit\n 1.Coffee\n 2.Tea \n 3.Buscuit \n 4.Samosa");
+			
 		if(choice>=1 && choice<=4)
 			{
 			if(choice==1)
@@ -24,10 +24,10 @@ class MenuBeverages4
 				n_Coffees=n_Coffees*15;
 				System.out.println("Coffee Bill : "+n_Coffees);
 				sum+=n_Coffees;
-				//System.out.println("sum: "+sum);
+				
 			}
 			
-			//System.out.println("Total Bill : "+sum);
+			
 		else if(choice==2)
 		{
 			System.out.print("How many Tea's do you want : ");
@@ -35,7 +35,7 @@ class MenuBeverages4
 			n_Tea=n_Tea*12;
 			System.out.println("Tea Bill : "+n_Tea);
 			sum+=n_Tea;
-			//System.out.println("sum: "+sum);
+			
 		}
 		else if(choice==3)
 		{
@@ -44,7 +44,7 @@ class MenuBeverages4
 			n_Buscuit=n_Buscuit*5;
 			System.out.println("Buscuit Bill : "+n_Buscuit);
 			sum+=n_Buscuit;
-			//System.out.println("sum: "+sum);
+			
 		}
 		else if(choice==4)
 		{
@@ -53,14 +53,9 @@ class MenuBeverages4
 			n_Samosa=n_Samosa*15;
 			System.out.println("Samosa Bill : "+n_Samosa);
 			sum+=n_Samosa;
-			//System.out.println("sum: "+sum);
+			
 		}
-		/*else
-			{
-				System.out.println("Please! Enter valid Input");
-				break;
-			}*/
-			}
+		
 		
 			System.out.println("Any Thing else : 1.Yes or 2.No ");
 			select=sr.nextInt();
@@ -72,9 +67,7 @@ class MenuBeverages4
 			else if(select==2)
 			{
 				System.out.println("Total Bill : "+sum);
-				System.out.println(".......Thank You visit Again....");
-				//total = n_Coffees+n_Tea+n_Buscuit+n_Samosa;
-				
+				System.out.println(".......Thank You visit Again....");	
 				break;
 			}
 			
