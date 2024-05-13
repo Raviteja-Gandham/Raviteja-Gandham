@@ -1,3 +1,4 @@
+/* Program to print Factorial of a specific number */
 import java.util.Scanner;
 class Factorial
 {
