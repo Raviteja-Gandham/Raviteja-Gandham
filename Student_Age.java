@@ -10,7 +10,6 @@ for(int i=0;i<5;i++)
 {
 	arr[i]=sr.nextInt();
 }
-//int[] arr={16,9,5,3,14};
 int yr[]=new int[5];
 
 for(int i=0;i<5;i++)
