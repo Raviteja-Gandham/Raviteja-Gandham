@@ -1,3 +1,4 @@
+/* Program to print Fibonacci Series */
 import java.util.Scanner;
 class Fibonacci
 {
