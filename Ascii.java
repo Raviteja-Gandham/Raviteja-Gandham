@@ -1,3 +1,4 @@
+/* Pragram to print Ascii value for specific character */
 import java.util.Scanner;
 class Ascii
 {
