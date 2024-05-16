@@ -1,22 +1,22 @@
-
-public class Concat {
+import java.util.Scanner;
+public class StringConacat {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1,s2,s3;
+		Scanner sr=new Scanner(System.in);
+		s1 = sr.nextLine();
+		s2 = sr.nextLine();
 		
-		String s1="Hello";
-		String s2="World!";
-		
-		
-		System.out.println(s1+" "+s2);
-		
-		//using concat() method
-		
-		String s3=s1.concat(" "+s2);
+		s3 = s1.concat(" "+s2);
 		System.out.println(s3);
 		
-		//using + operator
-		System.out.println("Hello"+" World!");
+		s1=s1.concat(s2);
+		System.out.println(s1);
 		
+		
+		sr.close();
 	}
 
 }
