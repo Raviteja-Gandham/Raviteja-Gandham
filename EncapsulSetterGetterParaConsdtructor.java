@@ -1,11 +1,6 @@
 
 public class EncapsulSetterGetterParaConsdtructor {
 
-	// 1.Right click on any variable
-	// 2.Select option (source)
-	// 3.click on (Generate constructor using Fields) option
-	// 4.click on (getters) Option
-	// 5.and click on Generate
 		private String name;   
 		private int age;
 		
