@@ -1,11 +1,5 @@
 
 public class EncapsulSetterGetterParaConsdtructor1 {
-
-	// 1.Right click on any variable
-	// 2.Select option (source)
-	// 3.click on (Generate constructor using Fields) option
-	// 4.click on (getters) Option
-	// 5.and click on Generate
 		
 	private int id;
 	private String name;
@@ -19,6 +13,8 @@ public class EncapsulSetterGetterParaConsdtructor1 {
 	}
 
 	public static void main(String[] args) {
+
+		EncapsulSetterGetterParaConsdtructor1 ep=new EncapsulSetterGetterParaConsdtructor1(81,85000,"Raviteja");
 		
 	}
 
